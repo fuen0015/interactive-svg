@@ -8,9 +8,9 @@
   transform: translateY(-10px);
 }
 
-#bear:hover #left-eye,
-#bear:hover #right-eye {
-  animation: glance 3s infinite forwards;
+#left-eye,
+#right-eye {
+  animation: glance 3s infinite;
 }
 
 @keyframes glance {
